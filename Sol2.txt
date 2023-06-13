@@ -1,0 +1,14 @@
+Abstraction and encapsulation are two important concepts in object-oriented programming, but they serve different purposes:
+
+Abstraction:
+
+*Abstraction focuses on creating simplified models or representations of complex real-world entities.
+*It allows programmers to focus on the essential features of an object while hiding unnecessary details.
+*Abstraction involves creating abstract classes or interfaces that define a set of common methods without implementing them, leaving the implementation details to the concrete subclasses.
+*It helps in managing complexity, making code more modular, reusable, and maintainable.
+Encapsulation:
+
+*Encapsulation focuses on bundling data and methods within a single unit, such as a class, to control access to the data and protect it from external interference.
+*It combines data and methods (functions) into a class and allows the class to control the access and modification of its internal state.
+*Encapsulation promotes data hiding and provides a way to organize code and prevent unauthorized access to data.
+*It helps in achieving data integrity, ensuring that the internal state of an object remains consistent and valid.

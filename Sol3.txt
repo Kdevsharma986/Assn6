@@ -1,0 +1,12 @@
+The abc module in Python stands for "Abstract Base Classes." It provides a way to define abstract classes and abstract methods in Python. Abstract classes are classes that cannot be instantiated and are meant to serve as base classes for other classes.
+
+The abc module is used to create abstract base classes by using the ABC class as a metaclass or by subclassing the ABC class. Abstract base classes define a common interface or a set of methods that must be implemented by the concrete subclasses. They provide a way to enforce a certain structure or behavior in the derived classes.
+
+The abc module is used for the following purposes:
+
+1.Defining abstract classes: The abc module provides the ABC class, which can be used as a metaclass or as a base class to define abstract classes. Abstract classes cannot be instantiated, and they are intended to be subclassed.
+
+2.Defining abstract methods: Abstract methods are methods that are declared in the abstract base class but do not have an implementation. They serve as placeholders for methods that must be implemented by the subclasses. The abc module provides the abstractmethod decorator, which is used to mark a method as abstract.
+
+3.Enforcing interface or structure: By defining abstract classes and abstract methods, the abc module helps in enforcing a certain interface or structure in the derived classes. It ensures that the subclasses implement the required methods, providing a way to achieve polymorphism and ensuring that objects of different classes can be used interchangeably.
+
